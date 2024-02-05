@@ -4,6 +4,7 @@ Projeto pessoal criado para ajudar a fixar o conteúdo aprendido nas videoaulas 
 
 # Imagens do projeto:
 
-![image](https://github.com/IGDSCI/SIMULADOR-CADASTRO-FLUTTER/assets/114839208/0f8eded3-2c4c-45f8-88ec-184878da77f3)
+![image](https://github.com/IGDSCI/SIMULADOR-CADASTRO-FLUTTER/assets/114839208/5760b7cb-cdb6-45c7-a254-0ad42a71eb51)
+
 
 
