@@ -1,16 +1,9 @@
-# teste_flutter
+# Simulador de cadastro no Flutter
 
-A new Flutter project.
+Projeto pessoal criado para ajudar a fixar o conteúdo aprendido nas videoaulas de Flutter, criei somente um Front-End de como ficaria a minha central de cadastros em Flutter
 
-## Getting Started
+# Imagens do projeto:
 
-This project is a starting point for a Flutter application.
+![image](https://github.com/IGDSCI/SIMULADOR-CADASTRO-FLUTTER/assets/114839208/0f8eded3-2c4c-45f8-88ec-184878da77f3)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
