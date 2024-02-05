@@ -154,12 +154,24 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Center(
                 child: Container(
                   height: 43,
-                  child: FloatingActionButton(
-                    child: Icon(
-                      Icons.delete
-                      ), 
-                    onPressed: (){
-                  },),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.delete
+                          ), 
+                        onPressed: (){
+                      },),
+
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.edit
+                          ), 
+                        onPressed: (){
+                      },),
+                    ],
+                  ),
                 )
               ),
             ),
@@ -216,12 +228,24 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Center(
                 child: Container(
                   height: 43,
-                  child: FloatingActionButton(
-                    child: Icon(
-                      Icons.delete
-                      ), 
-                    onPressed: (){
-                  },),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.delete
+                          ), 
+                        onPressed: (){
+                      },),
+
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.edit
+                          ), 
+                        onPressed: (){
+                      },),
+                    ],
+                  ),
                 )
               ),
             ),
@@ -278,12 +302,24 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Center(
                 child: Container(
                   height: 43,
-                  child: FloatingActionButton(
-                    child: Icon(
-                      Icons.delete
-                      ), 
-                    onPressed: (){
-                  },),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.delete
+                          ), 
+                        onPressed: (){
+                      },),
+
+                      FloatingActionButton(
+                        child: Icon(
+                          Icons.edit
+                          ), 
+                        onPressed: (){
+                      },),
+                    ],
+                  ),
                 )
               ),
             ),
