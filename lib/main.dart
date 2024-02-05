@@ -87,6 +87,20 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
+
+            Container(
+              width: 170,
+              color: Color.fromARGB(255, 49, 181, 199),
+              child: Center(
+                child: Text(
+                'Ações',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 30,
+                  ),
+                ),
+              ),
+            ),
           ],),
       
         Row(
@@ -131,6 +145,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   fontSize: 30,
                   ),
                 ),
+              ),
+            ),
+
+            Container(
+              width: 170,
+              color: Color.fromARGB(255, 49, 181, 199),
+              child: Center(
+                child: Container(
+                  height: 43,
+                  child: FloatingActionButton(
+                    child: Icon(
+                      Icons.delete
+                      ), 
+                    onPressed: (){
+                  },),
+                )
               ),
             ),
           ],),
@@ -179,6 +209,22 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
               ),
             ),
+
+            Container(
+              width: 170,
+              color: Color.fromARGB(255, 49, 181, 199),
+              child: Center(
+                child: Container(
+                  height: 43,
+                  child: FloatingActionButton(
+                    child: Icon(
+                      Icons.delete
+                      ), 
+                    onPressed: (){
+                  },),
+                )
+              ),
+            ),
           ],),
       
           Row(
@@ -223,6 +269,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   fontSize: 30,
                   ),
                 ),
+              ),
+            ),
+
+            Container(
+              width: 170,
+              color: Color.fromARGB(255, 49, 181, 199),
+              child: Center(
+                child: Container(
+                  height: 43,
+                  child: FloatingActionButton(
+                    child: Icon(
+                      Icons.delete
+                      ), 
+                    onPressed: (){
+                  },),
+                )
               ),
             ),
           ],),
