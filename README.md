@@ -1,4 +1,4 @@
-# Simulador de cadastro no Flutter
+# Simulador de uma central de cadastro no Flutter
 
 Projeto pessoal criado para ajudar a fixar o conteúdo aprendido nas videoaulas de Flutter, criei somente um Front-End de como ficaria a minha central de cadastros em Flutter
 
