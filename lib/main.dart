@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:teste_flutter/itens_tabela.dart';
+import 'package:teste_flutter/titulos_tabela.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,7 +10,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
@@ -29,301 +30,24 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 23, 46, 97),
       appBar: AppBar(
+        centerTitle: true,
         backgroundColor: Color.fromARGB(255, 6, 6, 41),
         title: const Text(
           'Simulador de cadastro',
           style: TextStyle(color: Colors.white),
-          ),
-        centerTitle: true,
+        ),
       ),
-      backgroundColor: Color.fromARGB(255, 23, 46, 97),
       body: Column(
         children: [
-          Container(
+          SizedBox(
             height: 100,
           ),
-          Row(
-          mainAxisAlignment: MainAxisAlignment.center, 
-          children: [
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'ID',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Nome',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Senha',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Ações',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-          ],),
-      
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center, 
-          children: [
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                '01',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Gustavo',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Gu123',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Container(
-                  height: 43,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.delete
-                          ), 
-                        onPressed: (){
-                      },),
-
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.edit
-                          ), 
-                        onPressed: (){
-                      },),
-                    ],
-                  ),
-                )
-              ),
-            ),
-          ],),
-      
-          Row(
-          mainAxisAlignment: MainAxisAlignment.center, 
-          children: [
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                '02',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Gabriel',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Ga123',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Container(
-                  height: 43,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.delete
-                          ), 
-                        onPressed: (){
-                      },),
-
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.edit
-                          ), 
-                        onPressed: (){
-                      },),
-                    ],
-                  ),
-                )
-              ),
-            ),
-          ],),
-      
-          Row(
-          mainAxisAlignment: MainAxisAlignment.center, 
-          children: [
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                '03',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Lucas',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-      
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Text(
-                'Lu123',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 30,
-                  ),
-                ),
-              ),
-            ),
-
-            Container(
-              width: 170,
-              color: Color.fromARGB(255, 49, 181, 199),
-              child: Center(
-                child: Container(
-                  height: 43,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.delete
-                          ), 
-                        onPressed: (){
-                      },),
-
-                      FloatingActionButton(
-                        child: Icon(
-                          Icons.edit
-                          ), 
-                        onPressed: (){
-                      },),
-                    ],
-                  ),
-                )
-              ),
-            ),
-          ],),
+          TitulosTabela(texto_coluna1: 'ID', texto_coluna2: 'Nome', texto_coluna3: 'Senha', texto_coluna4: 'Ações'),
+          ItensTabela(texto_coluna1: '01', texto_coluna2: 'Gustavo', texto_coluna3: 'Gu123'),
+          ItensTabela(texto_coluna1: '02', texto_coluna2: 'Gabriel', texto_coluna3: 'Ga123'),
+          ItensTabela(texto_coluna1: '03', texto_coluna2: 'Lucas', texto_coluna3: 'Lu123'),
         ],
       ),
     );
